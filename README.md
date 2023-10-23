@@ -4,5 +4,6 @@
 O desenvolvimento desta API tem como objetivo gerenciar uma aplicação web, fornecendo oporem completa para operações CRUD (Criar, Ler, Atualizar e Excluir) relacionadas a livros, usuários, autores e empréstimos.
 
 ![image](https://github.com/EduardoLopess/DeTudoUmPouco/assets/80491564/df308b61-a4e3-443d-96e4-dd7bad56ab13)
-![Uploading image.png…]()
+![image](https://github.com/EduardoLopess/DeTudoUmPouco/assets/80491564/be215b02-3903-4dae-8542-6473f851c1fd)
+
 
