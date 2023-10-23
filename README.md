@@ -9,5 +9,5 @@ O desenvolvimento desta API tem como objetivo gerenciar uma aplicação web, for
 ![image](https://github.com/EduardoLopess/DeTudoUmPouco/assets/80491564/be215b02-3903-4dae-8542-6473f851c1fd)
 ![image](https://github.com/EduardoLopess/DeTudoUmPouco/assets/80491564/7d0e0b7b-d29f-4293-8eec-c8f0de772fc7)
 
-
+## Descricao
 
