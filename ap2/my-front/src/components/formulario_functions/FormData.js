@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Navbar from '../navbar_components/Navbar'
 
 const FormData = () => {
     const [formData, setFormData] = useState({
@@ -21,7 +22,8 @@ const FormData = () => {
         setFormData({
             ...formData,
             nome: '',
-            telefone: ''
+            telefone: '',
+            foto: ''
         });
     }
     

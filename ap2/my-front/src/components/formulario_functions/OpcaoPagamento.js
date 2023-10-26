@@ -8,10 +8,8 @@ const OpcaoPagamento = (handleInputChange) => {
         setOpcaoPagamento(value);
 
         if (value === 'op1') {
-            // Se 'Sim' é selecionado, atribui 'Pago'
             handleInputChange({ target: { name: 'pagamento', value: 'Pago' } });
         } else {
-            // Se 'Não' é selecionado, atribui 'Não Pago'
             handleInputChange({ target: { name: 'pagamento', value: 'Não Pago' } });
         }
     }

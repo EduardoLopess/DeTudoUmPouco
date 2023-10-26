@@ -4,7 +4,6 @@ import FormData from './formulario_functions/FormData';
 import OpcaoEgressoConvidado from './formulario_functions/OpcaoEgressoConvidado';
 import OpcaoPagamento from './formulario_functions/OpcaoPagamento';
 import ListaCard from './card_components/ListaCard'; 
-import Navbar from './navbar_components/Navbar'
 
 const Formulario = () => {
     const { formData, handleInputChange, resetCamposNomeETelefone } = FormData();
@@ -22,9 +21,7 @@ const Formulario = () => {
     }
 
     return (
-        
-        <div className="formulario">
-            
+        <div className="formulario"> 
             <form onSubmit={handleSubmit}>
                 <div className="campo">
                     <label htmlFor="nome">Nome:</label>
@@ -99,8 +96,10 @@ const Formulario = () => {
                     />
                 </div>
                 <button type="submit">CADASTRAR</button>
+                
             </form>
             {listaDeFormularios.length > 0 && <ListaCard lista={listaDeFormularios} />}
+        
         </div>
     );
 }
